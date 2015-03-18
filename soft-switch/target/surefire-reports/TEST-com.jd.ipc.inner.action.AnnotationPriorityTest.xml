@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.588" errors="0" skipped="0" tests="4" name="com.jd.ipc.inner.action.AnnotationPriorityTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_43\jre\bin"/>
+    <property name="java.vm.version" value="20.14-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch"/>
+    <property name="java.runtime.version" value="1.6.0_43-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\surefire\surefirebooter44530427083087537.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_43\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.6.0_43/bin/../jre/bin/server;C:/Program Files/Java/jdk1.6.0_43/bin/../jre/bin;C:/Program Files/Java/jdk1.6.0_43/bin/../jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_43\bin;C:\Program Files\Java\jdk1.6.0_43\jre\bin;A:\IDEs\apache-maven-3.0.3\bin;C:\快捷方式;A:\IDEs\gradle-2.3\bin;C:;Program Files (x86)\Git\cmd;A:\IDEs\eclipse-indigo;;."/>
+    <property name="surefire.test.class.path" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\test-classes;A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\3.0.0.RELEASE\spring-test-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\3.0.0.RELEASE\spring-beans-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\3.0.0.RELEASE\spring-core-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\3.0.0.RELEASE\spring-context-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\3.0.0.RELEASE\spring-expression-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-asm\3.0.0.RELEASE\spring-asm-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\3.0.0.RELEASE\spring-aop-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\3.0.0.RELEASE\spring-aspects-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.7.2\aspectjweaver-1.7.2.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="jiali1"/>
+    <property name="java.class.path" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\test-classes;A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\3.0.0.RELEASE\spring-test-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\3.0.0.RELEASE\spring-beans-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\3.0.0.RELEASE\spring-core-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\3.0.0.RELEASE\spring-context-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\3.0.0.RELEASE\spring-expression-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-asm\3.0.0.RELEASE\spring-asm-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\3.0.0.RELEASE\spring-aop-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\3.0.0.RELEASE\spring-aspects-3.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.7.2\aspectjweaver-1.7.2.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_43\jre"/>
+    <property name="sun.java.command" value="A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\surefire\surefirebooter44530427083087537.jar A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\surefire\surefire8485675852938733986tmp A:\work_space\inner-distribution-tools\inner-distribution-tools-soft-switch\target\surefire\surefire5712237930207248945tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_43"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_43\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_43\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_43\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.528" classname="com.jd.ipc.inner.action.AnnotationPriorityTest" name="testPriority"/>
+  <testcase time="0.001" classname="com.jd.ipc.inner.action.AnnotationPriorityTest" name="testPaused"/>
+  <testcase time="0.001" classname="com.jd.ipc.inner.action.AnnotationPriorityTest" name="testPaused1"/>
+  <testcase time="0" classname="com.jd.ipc.inner.action.AnnotationPriorityTest" name="testScope"/>
+</testsuite>
